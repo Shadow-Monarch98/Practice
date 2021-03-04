@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+       "sourceMap": true,
+       
+    },
+    "files": [
+        "firstts.ts",
+        "three.ts",
+        "four.ts",
+        "a.ts",
+        // "b.ts",
+        "ten.ts",
+        "six.ts",
+        "seven.ts",
+        "eight.ts",
+        "nine.ts",
+        "five.ts"
+    ]
+}

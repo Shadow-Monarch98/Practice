@@ -1,0 +1,14 @@
+.dat {
+  display: flexbox;
+  color: azure;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+.sp {
+  display: flexbox;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 20%;
+}

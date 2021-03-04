@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}

@@ -1,0 +1,20 @@
+.box {
+  padding: 1%;
+  padding-left: 2%;
+}
+p,
+h2,
+h3 {
+  color: azure;
+}
+.title {
+  margin-left: 40%;
+}
+.desc {
+  margin-left: 25%;
+}
+/* .desc {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+} */

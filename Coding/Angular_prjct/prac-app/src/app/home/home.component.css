@@ -1,0 +1,12 @@
+.onetext {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 400%;
+  font-weight: 300;
+  color: azure;
+}

@@ -1,0 +1,28 @@
+.hobbies {
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(https://images.unsplash.com/photo-1516397281156-ca07cf9746fc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
+background-size: cover;
+background-position: center;
+height: 100vh;
+    background-attachment: fixed;
+}
+.ed{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 10%;
+    text-align: center;
+}
+.span-1-of-4 {
+	width: 23.8%; 
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.textw{
+    color: azure;
+    margin: 10px auto 20px auto;
+}

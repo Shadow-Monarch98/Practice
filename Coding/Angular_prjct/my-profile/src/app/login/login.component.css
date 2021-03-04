@@ -1,0 +1,25 @@
+.formp{
+       background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url();
+           background-size: cover;
+			background-position: center;
+			height: 100vh;
+            background-attachment: fixed;}
+.dat{
+    display: flexbox;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+.sp{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url();
+                background-size: cover;
+			background-position: center;
+			height: 100vh;
+            background-attachment: fixed;
+            display: flexbox;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            padding-top: 20%;
+}

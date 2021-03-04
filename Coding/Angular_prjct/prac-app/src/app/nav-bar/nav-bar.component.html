@@ -1,0 +1,36 @@
+<div class="navbar2">
+  <nav class="navbar">
+    <ul class="nav justify-content-start" *ngIf="!isAuthenticated">
+      <li class="nav-item" routerLinkActive="active activ" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link" aria-current="page" routerLink="/">Home</a>
+      </li>
+    </ul>
+    <ul class="nav justify-content-start"  *ngIf="isAuthenticated">
+      <li class="nav-item" routerLinkActive="active activ"  [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link" aria-current="page" routerLink="/homel" >Home</a>
+      </li>
+    </ul>
+    <div class="justify-content-end">
+
+      <ul class="nav ">
+        <li class="nav-item" routerLinkActive="active activ" >
+          <a class="nav-link" routerLink="/info">Info</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active activ" *ngIf="isAuthenticated">
+          <a class="nav-link" routerLink="/anime">Anime List</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active activ" *ngIf="isAuthenticated">
+          <a class="nav-link" routerLink="/manga">Manga List</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active activ" *ngIf="!isAuthenticated">
+          <a class="nav-link" routerLink="/login">Login</a>
+        </li>
+                <li class="nav-item" routerLinkActive="active activ"  *ngIf="isAuthenticated">
+                  <a class="nav-link" routerLink="/login">Logout</a>
+                </li>
+      </ul>
+    </div>
+
+  </nav>
+
+</div>

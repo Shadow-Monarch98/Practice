@@ -1,0 +1,32 @@
+<div>
+  <nav class="navbar  bg-dark">
+    <ul class="nav justify-content-start">
+      <li class="nav-item" routerLinkActive="active activ"   [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link" aria-current="page" routerLink="/">Home</a>
+      </li>
+    </ul>
+    <div class="justify-content-end">
+
+      <ul class="nav ">
+        <li class="nav-item" routerLinkActive="active activ">
+          <a class="nav-link" routerLink="/general">Genral</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active activ">
+          <a class="nav-link" routerLink="/education">Education</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active activ">
+          <a class="nav-link" routerLink="/hobbies">Hobbies</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active activ" >
+          <a class="nav-link" routerLink="/login">Login</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+</div>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
